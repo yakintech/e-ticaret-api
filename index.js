@@ -4,7 +4,7 @@ const app = express()
 
 
 app.get("/health", (req,res) => {
-    return res.send("Health check!")
+    return res.send("Health check!!")
 })
 
 
